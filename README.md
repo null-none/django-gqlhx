@@ -7,8 +7,7 @@ Server-rendered GraphQL → HTMX bridge for Django
 ## Install
 
 ```bash
-pip install -e .
-# or: pip install django-gqlhx (when published)
+pip install django-gqlhx
 ```
 
 Your Django settings:
