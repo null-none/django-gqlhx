@@ -1,9 +1,7 @@
 from importlib import import_module
 from typing import Any
 
-
 def import_string(dotted_path: str) -> Any:
-    """Import a dotted path (like 'myapp.schema.schema') and return the object."""
     try:
         module_path, attr = dotted_path.rsplit(".", 1)
     except ValueError as exc:
