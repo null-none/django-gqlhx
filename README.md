@@ -5,9 +5,9 @@ Server-rendered GraphQL ↔ HTMX bridge for Django.
 
 Front-end sends only two fields via `hx-vals`: 
 
-**`query`** (GraphQL with inline args) and
+**`query`** - GraphQL with inline args
 
-**`renderer`** (template path or named renderer). The generic view executes your schema and returns an HTML fragment for instant htmx swaps.
+**`renderer`** - Template path or named renderer. The generic view executes your schema and returns an HTML fragment for instant htmx swaps.
 
 #### Example
 
