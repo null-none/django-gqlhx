@@ -39,17 +39,11 @@ urlpatterns = [ path("gql-html", csrf_exempt(GraphQLHTMXView.as_view())) ]
 ```
 
 
-#### Installation
-
-Clone or add as a submodule, then install editable:
+#### Install
 
 ```bash
-pip install -e .
+pip install django-gqlhx
 ```
-
-> When published to PyPI: `pip install django-gqlhx`
-
----
 
 --- Minimal HTMX Usage (only `query` + `renderer`)
 
